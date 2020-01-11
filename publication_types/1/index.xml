@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Mohammed Alser</title>
+    <link>/publication_types/1/</link>
+      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Mon, 21 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
+      <title>1</title>
+      <link>/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Can you Really Anonymize the Donors of Genomic Data in Today’s Digital World?</title>
+      <link>/publication/alser-2015-can/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/alser-2015-can/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

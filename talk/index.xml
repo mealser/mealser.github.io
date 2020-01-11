@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Mohammed Alser</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Fri, 20 Dec 2019 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>A Roadmap for Fast and Efficient Genome Analysis, the University of Tokyo, 20 December 2019</title>
+      <link>/talk/uot-20dec2019/</link>
+      <pubDate>Fri, 20 Dec 2019 13:00:00 +0000</pubDate>
+      <guid>/talk/uot-20dec2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Roadmap for Fast and Efficient Genome Analysis, the University of Tokyo, 19 December 2019</title>
+      <link>/talk/uot-19dec2019/</link>
+      <pubDate>Thu, 19 Dec 2019 13:30:00 +0000</pubDate>
+      <guid>/talk/uot-19dec2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Genome Analysis Using New Algorithms and Hardware Designs, the University of Tokyo, 18 December 2019</title>
+      <link>/talk/uot-18dec2019/</link>
+      <pubDate>Wed, 18 Dec 2019 15:00:00 +0000</pubDate>
+      <guid>/talk/uot-18dec2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding and Reducing Data Movement Bottlenecks in Modern Workloads, Microsoft Swiss Joint Research Center 31 Jan- 1 Feb 2019</title>
+      <link>/talk/microsoft-feb2019/</link>
+      <pubDate>Thu, 31 Jan 2019 09:00:00 +0000</pubDate>
+      <guid>/talk/microsoft-feb2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
