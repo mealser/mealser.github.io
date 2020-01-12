@@ -229,6 +229,16 @@
 &lt;p&gt;I am a Senior Researcher and Lecturer of computer architecture and bioinformatics at the &lt;a href=&#34;https://inf.ethz.ch&#34;&gt;Department of Computer Science&lt;/a&gt;, &lt;a href=&#34;https://ethz.ch/en.html&#34;&gt;ETH Zürich&lt;/a&gt;. My primary research interest is developing new algorithmic methods and hardware architectures for tackling and accelerating challenging computational problems, adapted to modern heterogeneous computing environments. I am currently working with &lt;a href=&#34;https://people.inf.ethz.ch/omutlu/&#34;&gt;Onur Mutlu&lt;/a&gt;, &lt;a href=&#34;https://safari.ethz.ch/&#34;&gt;SAFARI Research Group&lt;/a&gt;, on addressing the performance bottlenecks in the realm of bioinformatics and computational genomics.&lt;/p&gt;
 &lt;p&gt;I earned my PhD in Computer Engineering from &lt;a href=&#34;http://w3.bilkent.edu.tr/bilkent/&#34;&gt;Bilkent University&lt;/a&gt;, Turkey, where I was awarded the &lt;a href=&#34;https://www.tubitak.gov.tr/&#34;&gt;TÜBITAK&lt;/a&gt; doctoral fellowship. I was fortunate to work with &lt;a href=&#34;http://www.cs.bilkent.edu.tr/~calkan/&#34;&gt;Can Alkan&lt;/a&gt; and &lt;a href=&#34;https://people.inf.ethz.ch/omutlu/&#34;&gt;Onur Mutlu&lt;/a&gt; on my own doctoral research ideas. My PhD thesis, &lt;a href=&#34;https://arxiv.org/abs/1910.03936&#34;&gt;&amp;ldquo;Accelerating the Understanding of Life&#39;s Code Through Better Algorithms and Hardware Design&amp;rdquo;&lt;/a&gt;, received the &lt;a href=&#34;https://site.ieee.org/turkey/2018-yili-ieee-turkiye-bilim-odulleri-sahiplerini-buldu/&#34;&gt;IEEE Turkey Doctoral Dissertation Award&lt;/a&gt;. I also received &lt;a href=&#34;http://bilnews.bilkent.edu.tr/computer-engineering-phd-student-receives-yasser-arafat-award/&#34;&gt;Yasser Arafat Award&lt;/a&gt; and was named as the Best Palestinian PhD Student in Turkey. During my PhD, I joined &lt;a href=&#34;http://zarlab.cs.ucla.edu&#34;&gt;ZarLab&lt;/a&gt; at &lt;a href=&#34;http://www.ucla.edu/&#34;&gt;UCLA&lt;/a&gt; to work on metagenomics profiling. I also joined &lt;a href=&#34;https://cfaed.tu-dresden.de/news&#34;&gt;CfAED&lt;/a&gt; at &lt;a href=&#34;https://tu-dresden.de/&#34;&gt;TU Dresden&lt;/a&gt; to work on hardware accelerators for read mapping.
 Prior to enrolling at Bilkent, I was a consultant at the High-Performance Computing (HPC) Service Center, &lt;a href=&#34;http://www.petronas.com.my&#34;&gt;PETRONAS&lt;/a&gt;, where I led the development of analysis and visualization solutions for offshore oil and gas operations.&lt;/p&gt;
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+&lt;script async src=&#34;https://www.googletagmanager.com/gtag/js?id=UA-156074073-1&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+
+  gtag(&#39;config&#39;, &#39;UA-156074073-1&#39;);
+&lt;/script&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
