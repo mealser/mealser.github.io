@@ -7,7 +7,7 @@
     <description>Mohammed Alser</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Fri, 20 Dec 2019 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_box_center_2.png</url>
       <title>Mohammed Alser</title>
       <link>/</link>
     </image>
@@ -130,6 +130,14 @@ publication: &amp;ldquo;&lt;em&gt;Bioinformatics&lt;/em&gt;&amp;rdquo;&lt;/h2&gt
       <link>/publication/alser-2017-gatekeeper/</link>
       <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
       <guid>/publication/alser-2017-gatekeeper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enabling fast read alignment in genome analysis, Computational Genomics Summer Institute (CGSI) 2016</title>
+      <link>/talk/cgsi-27july2016/</link>
+      <pubDate>Mon, 18 Jul 2016 13:00:00 +0000</pubDate>
+      <guid>/talk/cgsi-27july2016/</guid>
       <description></description>
     </item>
     
