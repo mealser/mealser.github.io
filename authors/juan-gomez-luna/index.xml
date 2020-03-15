@@ -5,7 +5,7 @@
     <link>/authors/juan-gomez-luna/</link>
       <atom:link href="/authors/juan-gomez-luna/index.xml" rel="self" type="application/rss+xml" />
     <description>Juan Gomez-Luna</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
       <title>Juan Gomez-Luna</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>SneakySnake: A Fast and Accurate Universal Genome Pre-Alignment Filter for CPUs, GPUs, and FPGAs</title>
-      <link>/publication/alser-2019-sneakysnake/</link>
-      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/alser-2019-sneakysnake/</guid>
+      <link>/publication/alser-2020-sneakysnake/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/alser-2020-sneakysnake/</guid>
       <description></description>
     </item>
     

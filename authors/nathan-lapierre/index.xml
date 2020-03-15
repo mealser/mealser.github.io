@@ -5,12 +5,20 @@
     <link>/authors/nathan-lapierre/</link>
       <atom:link href="/authors/nathan-lapierre/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan LaPierre</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Sat, 18 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
       <title>Nathan LaPierre</title>
       <link>/authors/nathan-lapierre/</link>
     </image>
+    
+    <item>
+      <title>Metalign: Efficient alignment-based metagenomic profiling via containment min hash</title>
+      <link>/publication/lapierre-2020-metalign/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/lapierre-2020-metalign/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MiCoP: microbial community profiling method for detecting viral and fungal organisms in metagenomic samples</title>

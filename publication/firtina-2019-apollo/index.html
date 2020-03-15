@@ -28,7 +28,9 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content=" Motivation&lt;br/&gt; Third-generation sequencing technologies can sequence long reads that contain as many as 2 million base pairs (bp). These long reads are used to construct an assembly (i.e., the subject&#39;s genome), which is further used in downstream genome analysis. Unfortunately, third-generation sequencing technologies have high sequencing error rates and a large proportion of bps in these long reads are incorrectly identified. These errors propagate to the assembly and affect the accuracy of genome analysis. Assembly polishing algorithms minimize such error propagation by polishing or fixing errors in the assembly by using information from alignments between reads and the assembly (i.e., read-to-assembly alignment information). However, current assembly polishing algorithms can only polish an assembly using reads either from a certain sequencing technology or from a small assembly. Such technology-dependency and assembly-size dependency require researchers to 1) run multiple polishing algorithms and 2) use small chunks of a large genome to use all available read sets and polish large genomes, respectively.&lt;br/&gt;
+Results&lt;br/&gt; We introduce Apollo, a universal assembly polishing algorithm that scales well to polish an assembly of any size (i.e., both large and small genomes) using reads from all sequencing technologies (i.e., second- and third-generation). Our goal is to provide a single algorithm that uses read sets from all available sequencing technologies to improve the accuracy of assembly polishing and that can polish large genomes. Apollo 1) models an assembly as a profile hidden Markov model (pHMM), 2) uses read-to-assembly alignment to train the pHMM with the Forward-Backward algorithm, and 3) decodes the trained model with the Viterbi algorithm to produce a polished assembly. Our experiments with real read sets demonstrate that Apollo is the only algorithm that 1) uses reads from any sequencing technology within a single run and 2) scales well to polish large assemblies without splitting the assembly into multiple parts.&lt;br/&gt;
+Availability and implementation&lt;br/&gt; https://github.com/CMU-SAFARI/Apollo">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/firtina-2019-apollo/">
@@ -269,13 +271,15 @@
   <meta property="og:site_name" content="Mohammed Alser">
   <meta property="og:url" content="/publication/firtina-2019-apollo/">
   <meta property="og:title" content="Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate Assembly Polishing Algorithm | Mohammed Alser">
-  <meta property="og:description" content=""><meta property="og:image" content="/publication/firtina-2019-apollo/featured.png">
+  <meta property="og:description" content=" Motivation&lt;br/&gt; Third-generation sequencing technologies can sequence long reads that contain as many as 2 million base pairs (bp). These long reads are used to construct an assembly (i.e., the subject&#39;s genome), which is further used in downstream genome analysis. Unfortunately, third-generation sequencing technologies have high sequencing error rates and a large proportion of bps in these long reads are incorrectly identified. These errors propagate to the assembly and affect the accuracy of genome analysis. Assembly polishing algorithms minimize such error propagation by polishing or fixing errors in the assembly by using information from alignments between reads and the assembly (i.e., read-to-assembly alignment information). However, current assembly polishing algorithms can only polish an assembly using reads either from a certain sequencing technology or from a small assembly. Such technology-dependency and assembly-size dependency require researchers to 1) run multiple polishing algorithms and 2) use small chunks of a large genome to use all available read sets and polish large genomes, respectively.&lt;br/&gt;
+Results&lt;br/&gt; We introduce Apollo, a universal assembly polishing algorithm that scales well to polish an assembly of any size (i.e., both large and small genomes) using reads from all sequencing technologies (i.e., second- and third-generation). Our goal is to provide a single algorithm that uses read sets from all available sequencing technologies to improve the accuracy of assembly polishing and that can polish large genomes. Apollo 1) models an assembly as a profile hidden Markov model (pHMM), 2) uses read-to-assembly alignment to train the pHMM with the Forward-Backward algorithm, and 3) decodes the trained model with the Viterbi algorithm to produce a polished assembly. Our experiments with real read sets demonstrate that Apollo is the only algorithm that 1) uses reads from any sequencing technology within a single run and 2) scales well to polish large assemblies without splitting the assembly into multiple parts.&lt;br/&gt;
+Availability and implementation&lt;br/&gt; https://github.com/CMU-SAFARI/Apollo"><meta property="og:image" content="/publication/firtina-2019-apollo/featured.png">
   <meta property="twitter:image" content="/publication/firtina-2019-apollo/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-01-11T14:37:22&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-02-12T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-03-13T00:00:00&#43;00:00">
   
 
   
@@ -308,7 +312,7 @@
   ],
   
   "datePublished": "2020-01-11T14:37:22Z",
-  "dateModified": "2019-02-12T00:00:00Z",
+  "dateModified": "2020-03-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -323,7 +327,7 @@
       "url": "img//"
     }
   },
-  "description": ""
+  "description": " Motivation\u003cbr/\u003e Third-generation sequencing technologies can sequence long reads that contain as many as 2 million base pairs (bp). These long reads are used to construct an assembly (i.e., the subject's genome), which is further used in downstream genome analysis. Unfortunately, third-generation sequencing technologies have high sequencing error rates and a large proportion of bps in these long reads are incorrectly identified. These errors propagate to the assembly and affect the accuracy of genome analysis. Assembly polishing algorithms minimize such error propagation by polishing or fixing errors in the assembly by using information from alignments between reads and the assembly (i.e., read-to-assembly alignment information). However, current assembly polishing algorithms can only polish an assembly using reads either from a certain sequencing technology or from a small assembly. Such technology-dependency and assembly-size dependency require researchers to 1) run multiple polishing algorithms and 2) use small chunks of a large genome to use all available read sets and polish large genomes, respectively.\u003cbr/\u003e\nResults\u003cbr/\u003e We introduce Apollo, a universal assembly polishing algorithm that scales well to polish an assembly of any size (i.e., both large and small genomes) using reads from all sequencing technologies (i.e., second- and third-generation). Our goal is to provide a single algorithm that uses read sets from all available sequencing technologies to improve the accuracy of assembly polishing and that can polish large genomes. Apollo 1) models an assembly as a profile hidden Markov model (pHMM), 2) uses read-to-assembly alignment to train the pHMM with the Forward-Backward algorithm, and 3) decodes the trained model with the Viterbi algorithm to produce a polished assembly. Our experiments with real read sets demonstrate that Apollo is the only algorithm that 1) uses reads from any sequencing technology within a single run and 2) scales well to polish large assemblies without splitting the assembly into multiple parts.\u003cbr/\u003e\nAvailability and implementation\u003cbr/\u003e https://github.com/CMU-SAFARI/Apollo"
 }
 </script>
 
@@ -491,36 +495,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/#students"><span>Students</span></a>
         </li>
 
         
@@ -578,7 +553,80 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/services/"><span>Services</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contact/"><span>Contact</span></a>
         </li>
 
         
@@ -672,7 +720,7 @@
     
       
     
-    February 2019
+    March 2020
   </span>
   
 
@@ -751,6 +799,54 @@
   
     
   
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa179/5804978" target="_blank" rel="noopener">
+    
+    Paper at Bioinformatics
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btaa179/32903376/btaa179.pdf" target="_blank" rel="noopener">
+    
+    Paper pdf
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/bioinformatics/PAP/10.1093_bioinformatics_btaa179/1/btaa179_supplementary-data.pdf?Expires=1587138393&amp;Signature=pHpfu2QyktOdORb9primV74Uwy2UCasZ4IBmHKexBdr1AzwV3pJztIs0aetw-Dks183uNsEQem1-aWXGpx1uT23wFGVMxitEf7PhG~qr~VrVHWRlp2CMDI6ABwhCQ2I6xhsWipB9fZidLV2EgoFrg42-GKiyIb5uW3ipT-PibtQ6hBvEQDJq5bW0xJjB2mRZO~mwarI0oToWke1TNIKEhxzeNCxlyIObcqYdzPrqmqbV35BMjF~K61uEmyMsizv6ciihAIDvoYezLxox0Sfn8MpxfSaNMs1B3o3IHQ69K3Md6hyB2~xkAs5LS7o~~avpsCZnVWKK8MZjVh2PohzLRw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" target="_blank" rel="noopener">
+    
+    Paper supplementary materials
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
   <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1902.04341" target="_blank" rel="noopener">
     
     arXiv
@@ -795,9 +891,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 465px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 474px;">
   <div style="position: relative">
-    <img src="/publication/firtina-2019-apollo/featured_hu4b9906300b15d22f37ae6d2c6f7d651e_427022_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/publication/firtina-2019-apollo/featured_hu7c50b13a536dda5df9af4b0967fa35c4_420278_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -806,6 +902,11 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Motivation<br/> Third-generation sequencing technologies can sequence long reads that contain as many as 2 million base pairs (bp). These long reads are used to construct an assembly (i.e., the subject's genome), which is further used in downstream genome analysis. Unfortunately, third-generation sequencing technologies have high sequencing error rates and a large proportion of bps in these long reads are incorrectly identified. These errors propagate to the assembly and affect the accuracy of genome analysis. Assembly polishing algorithms minimize such error propagation by polishing or fixing errors in the assembly by using information from alignments between reads and the assembly (i.e., read-to-assembly alignment information). However, current assembly polishing algorithms can only polish an assembly using reads either from a certain sequencing technology or from a small assembly. Such technology-dependency and assembly-size dependency require researchers to 1) run multiple polishing algorithms and 2) use small chunks of a large genome to use all available read sets and polish large genomes, respectively.<br/>
+Results<br/> We introduce Apollo, a universal assembly polishing algorithm that scales well to polish an assembly of any size (i.e., both large and small genomes) using reads from all sequencing technologies (i.e., second- and third-generation). Our goal is to provide a single algorithm that uses read sets from all available sequencing technologies to improve the accuracy of assembly polishing and that can polish large genomes. Apollo 1) models an assembly as a profile hidden Markov model (pHMM), 2) uses read-to-assembly alignment to train the pHMM with the Forward-Backward algorithm, and 3) decodes the trained model with the Viterbi algorithm to produce a polished assembly. Our experiments with real read sets demonstrate that Apollo is the only algorithm that 1) uses reads from any sequencing technology within a single run and 2) scales well to polish large assemblies without splitting the assembly into multiple parts.<br/>
+Availability and implementation<br/> <a href="https://github.com/CMU-SAFARI/Apollo">https://github.com/CMU-SAFARI/Apollo</a></p>
     
 
     
@@ -817,8 +918,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -835,7 +936,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>arXiv</em></div>
+          <div class="col-12 col-md-9"><em>Bioinformatics</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>

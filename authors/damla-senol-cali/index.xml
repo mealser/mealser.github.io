@@ -5,7 +5,7 @@
     <link>/authors/damla-senol-cali/</link>
       <atom:link href="/authors/damla-senol-cali/index.xml" rel="self" type="application/rss+xml" />
     <description>Damla Senol Cali</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
       <title>Damla Senol Cali</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>AirLift: A Fast and Comprehensive Technique for Translating Alignments between Reference Genomes</title>
-      <link>/publication/kim-2019-airlift/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/kim-2019-airlift/</guid>
+      <title>Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate Assembly Polishing Algorithm</title>
+      <link>/publication/firtina-2019-apollo/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/firtina-2019-apollo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate Assembly Polishing Algorithm</title>
-      <link>/publication/firtina-2019-apollo/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/firtina-2019-apollo/</guid>
+      <title>AirLift: A Fast and Comprehensive Technique for Translating Alignments between Reference Genomes</title>
+      <link>/publication/kim-2019-airlift/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/kim-2019-airlift/</guid>
       <description></description>
     </item>
     

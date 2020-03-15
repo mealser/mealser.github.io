@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harry Taegyun Yang | Mohammed Alser</title>
+    <link>/authors/harry-taegyun-yang/</link>
+      <atom:link href="/authors/harry-taegyun-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Harry Taegyun Yang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
+      <title>Harry Taegyun Yang</title>
+      <link>/authors/harry-taegyun-yang/</link>
+    </image>
+    
+    <item>
+      <title>Technology dictates algorithms: Recent developments in read alignment</title>
+      <link>/publication/alser-2020-technologydictatesalignment/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/alser-2020-technologydictatesalignment/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

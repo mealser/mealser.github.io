@@ -5,12 +5,52 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohammed Alser</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Fri, 20 Dec 2019 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
       <title>Mohammed Alser</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate Assembly Polishing Algorithm</title>
+      <link>/publication/firtina-2019-apollo/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/firtina-2019-apollo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SneakySnake: A Fast and Accurate Universal Genome Pre-Alignment Filter for CPUs, GPUs, and FPGAs</title>
+      <link>/publication/alser-2020-sneakysnake/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/alser-2020-sneakysnake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology dictates algorithms: Recent developments in read alignment</title>
+      <link>/publication/alser-2020-technologydictatesalignment/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/alser-2020-technologydictatesalignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Techniques for Reducing the Connected-Standby Energy Consumption of Mobile Devices</title>
+      <link>/publication/jawad-2020-odrips/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/jawad-2020-odrips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metalign: Efficient alignment-based metagenomic profiling via containment min hash</title>
+      <link>/publication/lapierre-2020-metalign/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/lapierre-2020-metalign/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Roadmap for Fast and Efficient Genome Analysis, the University of Tokyo, 20 December 2019</title>
@@ -45,14 +85,6 @@
     </item>
     
     <item>
-      <title>SneakySnake: A Fast and Accurate Universal Genome Pre-Alignment Filter for CPUs, GPUs, and FPGAs</title>
-      <link>/publication/alser-2019-sneakysnake/</link>
-      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/alser-2019-sneakysnake/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>MiCoP: microbial community profiling method for detecting viral and fungal organisms in metagenomic samples</title>
       <link>/publication/lapierre-2019-micop/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
@@ -78,14 +110,6 @@ publication: &amp;ldquo;&lt;em&gt;Bioinformatics&lt;/em&gt;&amp;rdquo;&lt;/h2&gt
     </item>
     
     <item>
-      <title>Apollo: A Sequencing-Technology-Independent, Scalable, and Accurate Assembly Polishing Algorithm</title>
-      <link>/publication/firtina-2019-apollo/</link>
-      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/firtina-2019-apollo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Understanding and Reducing Data Movement Bottlenecks in Modern Workloads, Microsoft Swiss Joint Research Center 31 Jan- 1 Feb 2019</title>
       <link>/talk/microsoft-feb2019/</link>
       <pubDate>Thu, 31 Jan 2019 09:00:00 +0000</pubDate>
@@ -95,9 +119,25 @@ publication: &amp;ldquo;&lt;em&gt;Bioinformatics&lt;/em&gt;&amp;rdquo;&lt;/h2&gt
     
     <item>
       <title>Landing Page</title>
+      <link>/contact/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landing Page</title>
       <link>/experience/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landing Page</title>
+      <link>/services/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/services/</guid>
       <description></description>
     </item>
     

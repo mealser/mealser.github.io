@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Efraim Rotem | Mohammed Alser</title>
+    <link>/authors/efraim-rotem/</link>
+      <atom:link href="/authors/efraim-rotem/index.xml" rel="self" type="application/rss+xml" />
+    <description>Efraim Rotem</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
+      <title>Efraim Rotem</title>
+      <link>/authors/efraim-rotem/</link>
+    </image>
+    
+    <item>
+      <title>Techniques for Reducing the Connected-Standby Energy Consumption of Mobile Devices</title>
+      <link>/publication/jawad-2020-odrips/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/jawad-2020-odrips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

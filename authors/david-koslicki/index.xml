@@ -5,12 +5,28 @@
     <link>/authors/david-koslicki/</link>
       <atom:link href="/authors/david-koslicki/index.xml" rel="self" type="application/rss+xml" />
     <description>David Koslicki</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mohammed Alser © 2020</copyright><lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu1e3f8c63bd65e8aa3ef5cf8eaffa8530_4958_512x512_fill_lanczos_center_2.png</url>
       <title>David Koslicki</title>
       <link>/authors/david-koslicki/</link>
     </image>
+    
+    <item>
+      <title>Technology dictates algorithms: Recent developments in read alignment</title>
+      <link>/publication/alser-2020-technologydictatesalignment/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/alser-2020-technologydictatesalignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metalign: Efficient alignment-based metagenomic profiling via containment min hash</title>
+      <link>/publication/lapierre-2020-metalign/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/lapierre-2020-metalign/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MiCoP: microbial community profiling method for detecting viral and fungal organisms in metagenomic samples</title>
