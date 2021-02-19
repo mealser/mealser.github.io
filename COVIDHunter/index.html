@@ -95,9 +95,9 @@
 		<div class="container mt-5">
 			<div class="post">
 				<header class="post-header">
-					<h1 class="post-title">COVIDHunter - Switzerland</h1>
+					<h1 class="post-title">COVIDHunter</h1>
 					<h6 class="font-weight-bold">An Accurate, Flexible, and Environment-Aware Open-Source COVID-19 Outbreak Simulation Model</h6>
-					<p class="post-description" style="text-align:justify">A COVID-19 outbreak simulation model that evaluates the current mitigation measures (i.e., non-pharmaceutical intervention) that are applied to a region and provides insight into what strength the upcoming mitigation measure should be and for how long it should be applied, while considering the potential effect of environmental conditions. Our model accurately forecasts the numbers of cases, hospitalizations, and deaths for a given day. We use Switzerland as a use-case for all the experiments. However, our model is not limited to any specific region as the parameters of COVIDHunter are completely configurable. We explain our approach in detail and provide a comprehensive treatment of all datasets, models, and evaluation results with different model configurations <a class="text-danger" href="https://doi.org/10.1101/2021.02.06.21251265">here</a> and <a class="text-danger" href="https://arxiv.org/abs/2102.03667">here</a>. COVIDHunter accurately forecasts for a given day:</p>
+					<p class="post-description" style="text-align:justify">A COVID-19 outbreak simulation model that evaluates the current mitigation measures (i.e., non-pharmaceutical intervention) that are applied to a region and provides insight into what strength the upcoming mitigation measure should be and for how long it should be applied, while considering the potential effect of environmental conditions. We explain our approach in detail and provide a comprehensive treatment of all datasets, models, and evaluation results with different model configurations <a class="text-danger" href="https://doi.org/10.1101/2021.02.06.21251265">here</a> and <a class="text-danger" href="https://arxiv.org/abs/2102.03667">here</a>. COVIDHunter accurately forecasts for a given day:</p>
 					<ol class="post-description">
 						<li>The reproduction number, R.</li>
 						<li>The number of infected persons.</li>
@@ -106,6 +106,27 @@
 						<li>The number of individuals at each stage of the COVID-19 infection (healthy, infected, contagious, and immune).</li>
 						<li>The strength and the duration of each mitigation measure.</li>
 					</ol>
+                    
+                    <h4><font color="red">Epidemiological Situation in Switzerland Using COVIDHunter</font></h4>
+                    <p class="post-description" style="text-align:justify">
+                        We use Switzerland as a use-case for all the experiments. However, our model is not limited to any specific region as the parameters of COVIDHunter are completely configurable. 
+                        Using COVIDHunter on 19 February 2021, we make two key observations:
+                        1) The spread of COVID-19 in Switzerland is <b>still active</b> as the reproduction number (R) is still greater than 1.0. 
+                       The R number value will remain greater than 1 until the first week of March 2021.
+                        2) COVIDHunter forecasts the effect of <b>relaxing the current mitigation measures on March 1st, 2021</b> on the number of COVID-19 cases, hospitalizations, and deaths as follows:
+                    </p>
+
+                    <table class="table" style="width:100%;text-align:left;background-color:white;">
+<thead><tr class="thead-dark"><th>Strength of mitigation measures during March 2021</th><th>0.35</th><th>0.40</th><th>0.50</th><th>0.60</th><th>0.70</th></tr></thead><tbody>
+ <tr><td>Mitigation measures with similar strength were applied on</td><td>6-30 September</td><td>28 February - 15 March</td><td>24 June - 20 August</td><td>12-29 October</td><td>28 November - 22 December</td></tr>
+ <tr><td>Cases</td><td>47'966-63'313</td><td>33'831-34'100</td><td>8'259-8'536</td><td>1'618-1'712</td><td>736-1'363</td></tr>
+ <tr><td>Hospitalizations</td><td>1'333-1'760</td><td>940-947</td><td>229-237</td><td>44-47</td><td>20-37</td></tr>
+ <tr><td>Deaths</td><td>198-229</td><td>132-198</td><td>59-83</td><td>18-25</td><td>7-24</td></tr>
+</tbody></table>
+                    
+                    
+                    <h4 style="margin-top:3cm;"><font color="red">Raw Data and Visualizations</font></h4>
+                    
                     <form>
                         <input type="button" class="btn btn-primary btn-sm" value="Download the most recent estimates here (.xlsx)" onClick="window.location.href='data/COVIDHunter-Feb-March2021.xlsx'">
                     </form>
