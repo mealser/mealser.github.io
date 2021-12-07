@@ -97,36 +97,45 @@
 				<header class="post-header">
 					<h1 class="post-title">COVIDHunter</h1>
 					<h6 class="font-weight-bold">An Accurate, Flexible, and Environment-Aware Open-Source COVID-19 Outbreak Simulation Model</h6>
-					<p class="post-description" style="text-align:justify">A COVID-19 outbreak simulation model that evaluates the current mitigation measures (i.e., non-pharmaceutical intervention) that are applied to a region and provides insight into what strength the upcoming mitigation measure should be and for how long it should be applied, while considering the potential effect of environmental conditions. We explain our approach in detail and provide a comprehensive treatment of all datasets, models, and evaluation results with different model configurations <a class="text-danger" href="https://doi.org/10.1101/2021.02.06.21251265">here</a> and <a class="text-danger" href="https://arxiv.org/abs/2102.03667">here</a>. COVIDHunter accurately forecasts for a given day:</p>
+					<p class="post-description" style="text-align:justify">A COVID-19 outbreak simulation model that evaluates the current mitigation measures (i.e., non-pharmaceutical intervention) that are applied to a region, environmental conditions, different variants of concern, vaccination rates, and provides insight into what strength the upcoming mitigation measure should be and for how long it should be applied. We explain our approach in detail and provide a comprehensive treatment of all datasets, models, and evaluation results with different model configurations <a class="text-danger" href="https://doi.org/10.1101/2021.02.06.21251265">here</a> and <a class="text-danger" href="https://arxiv.org/abs/2102.03667">here</a>. COVIDHunter accurately forecasts for a given day:</p>
 					<ol class="post-description">
 						<li>The reproduction number, R.</li>
 						<li>The number of infected persons.</li>
 						<li>The number of hospitalized persons.</li>
 						<li>The number of deaths.</li>
-						<li>The number of individuals at each stage of the COVID-19 infection (healthy, infected, contagious, and immune).</li>
+						<li>The number of individuals at each stage of the COVID-19 infection (HEALTHY, VACCINATED, INFECTED, CONTAGIOUS, HOSPITALIZED, IMMUNE, DEAD, and INFECTED TRAVELERS).</li>
 						<li>The strength and the duration of each mitigation measure.</li>
 					</ol>
                     
                     <h4><font color="red">Epidemiological Situation in Switzerland Using COVIDHunter</font></h4>
                     <p class="post-description" style="text-align:justify">
                         We use Switzerland as a use-case for all the experiments. However, our model is not limited to any specific region as the parameters of COVIDHunter are completely configurable. 
-                        Using COVIDHunter on <b>19 April 2021</b>, we make two key observations:
+                        Using COVIDHunter on <b>20 November 2021</b>, we make two key observations:
                     </p>
                         <ol class="post-description">
-                        <li>The spread of COVID-19 in Switzerland is <b>still active</b> as the reproduction number (R) is still greater than 1.0. 
-                       The R number value will remain greater than 1 until the last week of May 2021.</li>
-                        <li>COVIDHunter forecasts the effect of <b>relaxing the current mitigation measures on April 19, 2021</b> on the daily maximum number of COVID-19 cases, hospitalizations, and deaths as follows:</li>
+                        <li>
+                            The spread of COVID-19 in Switzerland is <b>still active</b> as the reproduction number (R) is still greater than 1.0. The R number value will remain greater than 1 until at least February 2022.
+                        </li> 
+                        <li> 
+                            COVIDHunter estimates that we are experiencing a deadly new wave that will peak on the last week of January 2022, which is very similar in numbers to the wave we had in February 2020. 
+                        </li> 
+                        <li> 
+                            The policy-makers have only one choice that is increasing the strength of the currently applied mitigation measures for 30 days.
+                            Relaxing the mitigation measures should not be an option before at least February 2022 as it would increase exponentially the number of cases, hospitalizations, and deaths by 5.5x. 
+                        </li>
+                        <li>
+                            COVIDHunter forecasts the effect of <b>relaxing the current mitigation measures on November 20, 2021</b> on the daily maximum number of COVID-19 cases, hospitalizations, and deaths as follows:
+                        </li>
                     </ol>
 
                     <table class="table" style="width:100%;text-align:left;background-color:white;">
-                        <thead><tr class="thead-dark"><th style="width: 25%">Strengths of the mitigation measures during April-May 2021</th><th style="width: 15%">0.35</th><th style="width: 15%">0.40</th><th style="width: 15%">0.50</th><th style="width: 15%">0.60</th><th style="width: 15%">0.70</th></tr></thead><tbody>
-                         <tr class="table-active"><td>Mitigation measures with similar strength were applied on</td><td>6-30 September 2020</td><td>28 February - 15 March 2020</td><td>24 June - 20 August 2020</td><td>12-29 October 2020</td><td>28 November - 22 December 2020</td></tr>
-                         <tr><td>Predicted daily number of cases</td><td>1'512-18'267</td><td>1'520-9'471</td><td>564-3'567</td><td>114-2'684</td><td>29-1'479</td></tr>
-                         <tr><td>Predicted daily number of hospitalizations</td><td>42-507</td><td>42-263</td><td>15-99</td><td>3-74</td><td>1-41</td></tr>
-                         <tr><td>Predicted daily number of deaths</td><td>25-276</td><td>26-150</td><td>23-62</td><td>5-53</td><td>1-29</td></tr>
+                        <thead><tr class="thead-dark"><th style="width: 25%">Strengths of the mitigation measures during November-December 2021</th><th style="width: 15%">0.2</th><th style="width: 15%">0.3</th><th style="width: 15%">0.40</th><th style="width: 15%">0.50</th><th style="width: 15%">0.60</th><th style="width: 15%">0.70</th></tr></thead><tbody>
+                         <tr class="table-active"><td>Mitigation measures with similar strength were applied on</td><td>29 February - 11 March 2020</td><td>1 October - 20 October 2020</td><td>28 February - 15 March 2020</td><td>24 June - 20 August 2020</td><td>12-29 October 2020</td><td>28 November - 22 December 2020</td></tr>
+                         <tr><td>Predicted daily number of cases</td><td>7'822-43'518</td><td>5'706-22'413</td><td>3'401-10'714</td><td>542-1'310</td><td>70-410</td><td>3-104</td></tr>
+                         <tr><td>Predicted daily number of hospitalizations</td><td>124-693</td><td>90-357</td><td>54-170</td><td>9-21</td><td>1-7</td><td>1-2</td></tr>
+                         <tr><td>Predicted daily number of deaths</td><td>38-216</td><td>28-112</td><td>16-53</td><td>3-7</td><td>1-3</td><td>1-2</td></tr>
                         </tbody></table>
                     
-                   
                     
                     <h4 style="margin-top:3cm;"><font color="red">Raw Data and Visualizations</font></h4>
                     
